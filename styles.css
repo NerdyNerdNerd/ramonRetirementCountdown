@@ -13,7 +13,7 @@ body {
 
 .countdown {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Optional: adds a semi-transparent background for better readability */
+    background-color: rgba(255, 255, 255, 0.2); /* Optional: adds a semi-transparent background for better readability */
     padding: 20px;
     border-radius: 10px;
 }
