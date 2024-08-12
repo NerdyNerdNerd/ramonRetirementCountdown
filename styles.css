@@ -5,11 +5,17 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-image: url('ReitrementAhead.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
 }
 
 .countdown {
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: adds a semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
 }
 
 #timer {
