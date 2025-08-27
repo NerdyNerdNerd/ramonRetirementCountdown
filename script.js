@@ -1,16 +1,16 @@
 function updateCountdown() {
-    // Set the date we're counting down to
-    const retirementDate = new Date('August 23, 2024 17:00:00 GMT-0700'); // Nevada time (PDT/PST)
+    // ✅ Set your meeting end time here
+    const meetingEndTime = new Date('2025-08-27T17:00:00'); // Example: August 27, 2025 at 5 PM
 
     // Get the current date and time
     const now = new Date();
 
     // Calculate the time remaining
-    const timeDifference = retirementDate - now;
+    const timeDifference = meetingEndTime - now;
 
     if (timeDifference <= 0) {
         // Time is up
-        document.getElementById('timer').innerHTML = "Ramon has retired!";
+        document.getElementById('timer').innerHTML = "Meeting is over!";
         return;
     }
 
@@ -32,3 +32,4 @@ setInterval(updateCountdown, 1000);
 
 // Initial call to display the countdown immediately
 updateCountdown();
+
