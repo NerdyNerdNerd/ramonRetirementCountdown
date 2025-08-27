@@ -1,6 +1,6 @@
 function updateCountdown() {
     // ✅ Set your meeting end time here
-    const meetingEndTime = new Date('2025-08-27T17:00:00'); // Example: August 27, 2025 at 5 PM
+    const meetingEndTime = new Date('2025-08-27T15:00:00'); // Example: August 27, 2025 at 5 PM
 
     // Get the current date and time
     const now = new Date();
@@ -32,4 +32,5 @@ setInterval(updateCountdown, 1000);
 
 // Initial call to display the countdown immediately
 updateCountdown();
+
 
